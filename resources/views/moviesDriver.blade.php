@@ -11,8 +11,9 @@
     </script> 
     <script src="movies.js"></script>
 </head>
-<body>
+<body onload="changeIt();">
     <h2>Movie Information Site</h2>
+    <select id="years" name="years"></select>
     <span id="results"></span>
     <button id="showButton">Click here for information about movies</button>
 </body>
